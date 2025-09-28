@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--memberikan judul ke tab browser-->
+        <title>TP3</title>
+    </head>
+    <body>
+        <!--header sebagai judul utama-->
+        <h1>Profil Pribadi</h1>
+
+        <!--membuat table untuk penempatan foto dan video-->
+        <table>
+            <!--membuat baris baru-->
+            <tr>
+                <!--membuat kolom header baru-->
+                <th>Foto Profil</th><th>Video Perkenalan</th>
+            </tr>
+            <tr> 
+                <!--membuat kolom isian baru dan membuat konten gambar-->
+                <td><img src="Foto_profil.jpeg" width="300"></td>
+                <!--membuat konten video-->
+                <td><video width="300" controls>
+                    <source src="Video_perkenalan.mp4" type="video/mp4">
+                </video></td>
+            </tr>
+        </table>
+
+            <!--membuat subjudul berikutnya dan barisan teks baru-->
+            <h2>Tentang Saya</h2>
+            <br>Halo! Namaku Arshinta, saya adalah mahasiswa S1 Telkom University</br>
+            <h2>Keterampilan</h2>
+
+        <!--membuat tabel untuk penempatan keterampilan-->
+        <table>
+            <tr>
+                <th>Keterampilan</th><th>Tingkat</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td><td>Level 0 Crook</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td><td>Level 30 Boss</td>
+            </tr>
+            <tr>
+                <td>CPP</td><td>Level 100 Mafia</td>
+            </tr>
+        </table>
+
+        <h2>Hubungi Saya</h2>
+
+        <!--membuat form-->
+        <form>
+            <!--memakai div untuk memisahkan antar bagian inputan-->
+            <div class="Input Name">
+                <!--membuat label inputan dengan type tertentu-->
+                <label>Nama: </label><input type="text">
+            </div>
+            <div class="Input Pesan">
+                <label>Email: </label><input type="email"> 
+            </div>
+            <div class="Kolom Pesan">
+            <br>Pesan: </br>
+            <!--membuat kolom kotak untuk isian panjang-->
+            <textarea> rows="5"></textarea>
+            <!--membuat button dengan nama tertentu-->
+            <br><button type="submit">Kirim Pesan</button></br>
+            </div>
+        </form>
+
+        <!--membuat subjudul-->
+        <h3>Media Sosial</h3>
+
+        <!--membuat tabel untuk isian link media sosial-->
+        <table> 
+            <tr>
+                <td><a href="https://www.linkedin.com/in/arshinta-hapsari-929711387?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></td>
+                <td>|</td>
+                <td><a href="https://github.com/arshintahpsri">GitHUb</a></td>
+                <td>|</td>
+                <td><a href="https://x.com/arshntahpsri?s=21">Twitter</a></td>
+            </tr>
+        </table>
+    </body>
+<html>       
